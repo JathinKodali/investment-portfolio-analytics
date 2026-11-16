@@ -1,0 +1,16 @@
+# Core pipeline
+pandas>=2.0
+numpy>=1.24
+
+# Tableau workbook builder: writes the .hyper extracts Tableau Public needs
+tableauhyperapi>=0.0.19
+
+# Tests
+pytest>=7.0
+
+# Optional: only needed to download fresh prices (python main.py --download)
+yfinance>=0.2
+
+# Optional: only needed to run notebooks/exploratory_analysis.ipynb
+matplotlib>=3.7
+jupyter
